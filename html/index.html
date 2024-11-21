@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prioriserv</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery.min.css">
+
+    <link rel="shortcut icon" href="../images/fevicon.png" type="image/x-icon">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "fERekjicIVOPeEQ-e",
+      });
+   })();
+</script>
+
+</head>
+<body>
+    <section>
+    <header class="header">
+    <nav>
+        <div class="logo">
+            <img src="../images/logoprio.png" alt="" width="120rem">
+        </div>
+        <ul id="menu-list">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#clients">Our Clients</a></li>
+            <li><a href="#Contact">Contact Us</a></li>
+            <!-- <li><a href="#">Career</a></li> -->
+            <div class="icons">
+                <div id="info-btn" class="fa fa-user"></div>
+            <div id="search-btn" class="fa fa-search"></div>
+        </div>
+        </ul>
+        <div class="class-menu">
+            <i class="fa fa-bars" onclick="toggleMenu()"></i>
+        </div>
+
+
+        <form action="" class="search-form">
+            <input type="search" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fa fa-search"></label>
+        </form> 
+
+        <div class="contact-info">
+            <div id="x-box"><i class="fa-solid fa-x"></i></div>
+        
+            <div class="info">
+               <img src="../images/logoprio.png" alt="" width="200px">
+            </div>
+            <div class="info">
+                <i class="fa fa-phone"></i>
+                <h3>Phone Number</h3>
+                <p>+234 803 449 4271 <br> <!--+234 817 2644 182--></p>
+            </div>
+        
+            <div class="info">
+                <i class="fa fa-envelope"></i>
+                <h3>Email Address</h3>
+                <p>info@prioriservconsult.com</p>
+            </div>
+        
+            <div class="info">
+                <i class="fa fa-map-marker"></i>
+                <h3>Office Address</h3>
+                <p>27, Olufemi Road,off Ogulana Drive, Surulere, <br>Lagos, Nigeria.</p>
+                
+            </div>
+        
+            <div class="share">
+                <a href="#" class="fa-brands fa-facebook"></a>
+                <a href="#" class="fa-brands fa-whatsapp"></a>
+                <a href="#" class="fa-brands fa-x-twitter"></a>
+            </div>
+        </div>
+    </nav>
+
+</header>
+</section>
+<!--header section ends-->
+
+    <!--home section starts-->
+    <div class="slida">
+        <div class="slides">
+            <img src="../images/cover.jpg" alt="" class="move"  height="600px">
+            <img src="../images/cover3.jpg" alt="" class="move"  height="600px">
+            <img src="../images/who-we-are.jpg" alt="" class="move" height="600px">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
+    </div>
+    <!--home section ends-->
+
+    
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h1 class="heading">About Us</h1>
+        <div class="row">
+            <div class="video">
+                <img src="../images/IMG-20241004-WA0055.jpg" alt="" width="350px">
+            </div>
+    
+            <div class="content">
+                <h3>We will provide you the best work <br> which you dream of</h3>
+                <p>Prioriserv Consults Ltd is a leading indigenous Nigerian company incorporated in 2018 under the Law & Allied matter Act of the Federal Republic of Nigeria (RC 1512080).</p>
+                <a href="about.html" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- about us section ends -->
+
+ <!-- our services section starts -->
+
+ <section class="services" id="services">
+    <h1 class="heading" id="head">Our Services</h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="../images/manifold.jpeg" alt="" width="250px">
+            <a href="services.html#manifold"><h3>Manifold Construction and Installation</h3>
+            <p>Manifolds are wide or larger pipes or channels into which smaller pipes or channels lead.</p></a>
+        </div>
+
+        <div class="box">
+            <img src="../images/pipe-repair5.jpeg" alt="" width="250px">
+            <a href="services.html#pipeline"><h3>Pipeline Leak Repairs/ Clamping</h3>
+            <p>Prioriserve Consults Ltd has proven his strength in the area of pipeline and flow-line leak repairs and clamping services.</p></a>
+        </div>
+
+        <div class="box">
+            <img src="../images/welding-art2.jpeg" alt="" width="250px">
+            <a href="services.html#welding"><h3>Welding and Fabrication</h3>
+            <p>Prioriserv Consult welders are trained to understand the most important thing about welding and pipe fabrication.</p></a>
+        </div>
+
+        <div class="box">
+            <img src="../images/fire-extinguisher1.jpeg" alt="" width="250px">
+            <a href="services.html#fireprotect"><h3>Fire Safety & Protection</h3>
+            <p>We specialise in fire sprinkler design, fabrication, installation, and support as well as fire alarm design, installation and support in both the commercial and residential markets.</p></a>
+        </div>
+
+        <div class="box">
+           <img src="../images/rustycathodic.jpeg" alt="" width="250px">
+           <a href="services.html#cathodic"><h3>Cathodic Protection Services</h3>
+            <p>Cathodic protection plays a vital role in maintaining the integrity and longevity of a pipeline.</p></a>
+        </div>
+
+        <div class="box">
+            <img src="../images/safety1.jpeg" alt="" width="250px">
+            <a href="services.html#ppe"><h3>Personal Protective Equipments</h3>
+            <p>Prioriserv provides preventive maintenance, emergency repairs, scheduled servicing, testing and component replacements, and the operation of building facilities.</p></a>
+        </div>
+
+        <div class="box">
+            <img src="../images/tankcalibration.jpeg" alt="" width="250px">
+            <a href="services.html#calibration"><h3>Tank Construction And Calibration</h3>
+            <p>Prioriserv provides Tank calibration and metering. It is the process of determining the exact volume of a tank and expressing it as a volume for a given height of liquid. It is an important step to ensure that the tank's capacity is accurate and reliable. </p>
+        </a>
+        </div>
+
+        <div class="box">
+            <img src="../images/ndt1.jpg" alt="" width="250px">
+            <a href="services.html#ndt"><h3>Non-Destructive Testing</h3>
+            <p>Non-destructive testing (NDT) is a method for evaluating the condition of tanks without damaging them. NDT can help identify defects and issues early, which can extend the life of the tank and prevent problems. </p></a>
+        </div>
+
+        <div class="box">
+            <img src="../images/construction.jpeg" alt="" width="250px">
+            <a href="services.html#construct"><h3>Pipe Construction</h3>
+            <p>Non-destructive testing (NDT) is a method for evaluating the condition of tanks without damaging them. NDT can help identify defects and issues early, which can extend the life of the tank and prevent problems. </p></a>
+        </div>
+        
+        
+    </div>
+ </section>
+  <!-- our services section ends -->
+
+   <!-- our client section starts -->
+   <section class="clients" id="clients">
+    <h1 class="heading">Our Clients</h1>
+   <div class="slider">
+    <div class="slide-track">
+        <div class="slid">
+            <img src="../images/bua.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/airopay.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/dangote.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/enyo.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/ap-logo.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/asharami.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/mtnlogo.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/nlpc.png" alt="" width="250px">
+        </div>
+        <div class="slid">
+            <img src="../images/il-bagno.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/cway.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/infinix.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/roche.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/rainoil.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/fiesta.jpeg" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/coral-blue.jpeg" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/mastercard.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/conoil.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/alomo.jpeg" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/visafone.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/vcare.png" alt="">
+        </div>
+        <div class="slid">
+            <img src="../images/sahara.png" alt="" width="250px">
+        </div>
+        <div class="slid">
+            <img src="../images/ecobank.png" alt="" width="250px">
+        </div>
+
+
+    </div>
+   </div>
+</section>
+  <!-- our client section ends -->
+
+  <!-- project section starts -->
+
+  <section class="projects" id="projects">
+    <h1 class="heading">Our Projects</h1>
+    <div class="box-container">
+        <a href="../images/IMG-20241004-WA0028.jpg" class="box">
+            <div class="image">
+                <img src="../images/IMG-20241004-WA0028.jpg" alt="" width="400px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="../images/IMG-20241004-WA0042.jpg" class="box">
+            <div class="image">
+                <img src="../images/IMG-20241004-WA0042.jpg" alt="" width="400px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="../images/IMG-20241004-WA0043.jpg" class="box">
+            <div class="image">
+                <img src="../images/IMG-20241004-WA0043.jpg" alt="" width="400px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="../images/IMG-20241004-WA0038.jpg" class="box">
+            <div class="image">
+                <img src="../images/IMG-20241004-WA0038.jpg" alt="" width="400px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="../images/IMG-20241004-WA0021.jpg" class="box">
+            <div class="image">
+                <img src="../images/IMG-20241004-WA0021.jpg" alt="" width="400px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="../images/IMG-20241004-WA0041.jpg" class="box">
+            <div class="image">
+                <img src="../images/IMG-20241004-WA0041.jpg" alt="" width="400px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="../images/projects.jpg" class="box">
+            <div class="image">
+                <img src="../images/projects.jpg" alt="" width="400px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="../images/ladywork.jpg" class="box">
+            <div class="image">
+                <img src="../images/ladywork.jpg" alt="" width="400px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="../images/IMG-20241004-WA0034.jpg" class="box">
+            <div class="image">
+                <img src="../images/IMG-20241004-WA0034.jpg" alt="" width="400px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="../images/safety.jpeg" class="box">
+            <div class="image">
+                <img src="../images/safety.jpg" alt="" width="400px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="../images/project2.jpg" class="box">
+            <div class="image">
+                <img src="../images/project2.jpg" alt="" width="350px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="../images/project1.jpg" class="box">
+            <div class="image">
+                <img src="../images/project1.jpg" alt="" width="400px">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <!-- <h3>Dream Struction</h3>
+                    <p>Construction, Design</p> -->
+                </div>
+                <i class="fa fa-plus"></i>
+            </div>
+        </a>
+    </div>
+  </section>
+   <!-- project section ends -->
+
+   <!--contact section starts-->
+  <section class="contact" id="Contact">
+
+    <h1 class="heading">Contact Us</h1>
+    <div class="leftside">
+        <div class="cont"><h1>
+            Reach out to us today <br>or ring us for immediate <br> assistance.
+        </h1></div>
+        
+           <div class="cont">
+            <h3><span>+234 803 449 4271</span></h3>
+        <h3>Inscribe Your Words through Mail <br><a href="mailto:info@prioriservconsult.com">info@prioriservconsult.com</a></h3>
+    </div>
+    </div>
+
+    <div class="row">
+
+        <iframe class="map"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2859.5372929816826!2d3.3481476737243216!3d6.505996467580198!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c3ce6f89325%3A0xf9de89d8d049550a!2sOlufemi%20Rd%2C%20Ikate%2C%20Surulere%20101241%2C%20Lagos%2C%20Nigeria!5e1!3m2!1sen!2sus!4v1728486096445!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </iframe>
+
+        <form>
+
+            <div class="inputBox" id="name">
+                <input type="text" required>
+                <label>Name</label>
+            </div>
+            <div class="inputBox" id="email">
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="inputBox" id="subject">
+                <input type="text" required>
+                <label>Subject</label>
+            </div>
+            <div class="inputBox" id="message">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <label>Message</label>
+            </div>
+
+            <input type="submit" value="send message" class="btn" onclick="emailSend()">
+
+        </form>
+
+    </div>
+
+</section>
+<!--contact section ends-->
+
+<!--footer section starts-->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="abt">about us</h3>
+            <p class="abt">Prioriserv Consults Ltd is a leading indigenous Nigerian company incorporated in 2018 under the Law & Allied matter Act of the Federal Republic of Nigeria (RC 1512080).</p>
+        </div>
+        <div class="box">
+            <h3>branch location</h3>
+            <a href="#">Lagos</a>
+            <!-- <a href="#">Enugu</a>
+            <a href="#">Osogbo</a>
+            <a href="#">Lokoja</a> -->
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html">home</a>
+            <a href="about.html">about us</a>
+            <a href="services.html">our services</a>
+            <a href="#clients">our clients</a>
+            <a href="#Contact">contact us</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linked</a>
+        </div>
+
+    </div>
+
+    <h2 class="credit"> created by <span> Oluchi </span> | all rights reserved! </h2>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>  
+<script src="../JS/index.js"></script>
+
+<script>
+    lightGallery(document.querySelector('.projects .box-container'));
+</script>
+</body>
+</html>
